@@ -1,0 +1,154 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+.calculator{
+	background: url(aa.jpg);
+	height:100%;
+	background-size:cover;
+
+    background-attachment: fixed;
+    height: 100%;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.header {
+	text-align: center;
+	color: blue;
+    margin: 30px;
+	padding: 10px;
+	background: #d42d2d;
+	height: 43px;
+	width: 250px;
+	float: left;
+	border-radius: 20px;
+    opacity: 0.7;
+    
+   
+   
+}
+.formstyle {
+	text-align: center;
+	width: 368px;
+	margin-left: 36%;
+	
+	box-shadow: 3px 5px #e82121;
+	background: #641616;
+    flex-wrap: wrap;
+}
+
+.styleform {
+	border: 3px solid #2c0080;
+	padding: 5px;
+	/* background: #ddd; */
+	font-size: 16px;
+}
+input[type="text"] {
+	height: 52px;
+    width: 288px;
+    font-size: 35px;
+	background-color:red;
+}
+
+input[type="button"] {
+	  width: 25%;
+  background: #425062;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: -4px;
+  border-right: solid 2px #3C4857;
+  border-bottom: solid 2px #3C4857;
+  transition: all 0.2s ease-in-out;
+}
+input[type="button"]:hover{
+    color: aquamarine;
+    background-color: indianred;
+    transition: all 0.2s ease-in-out;
+}
+
+#clear {
+	width: 48%;
+	margin-top: 1px;
+}
+.copyright {
+	text-align:center;
+	margin-top: 4%;
+	
+	height: 100px;
+	width: 296px;
+	margin-left: 38%;
+	padding: 10px;
+	border:  ;
+	opacity: .9;
+	color: black;
+    
+     
+	
+}
+.copyright a {
+	text-decoration:none;
+	color:#EB3812;
+	float:left;
+}
+.copyright h4 a h1{
+	padding-left: 61px;
+	
+}
+.copyright a img {
+	float:left;
+	height:112px;
+	width:116px;
+ border-radius: 50%;
+    border-bottom-style: dotted;
+}
+
+#zero {
+	width: 172px;
+}
+@media screen and (max-width:414px){
+    .header{
+    /*display: none;*/
+    text-align: center;
+	color: blue;
+    margin: 30px;
+	padding: 10px;
+	background: #d42d2d;
+	height: 43px;
+	width: 250px;
+	float: ;
+	border-radius: 20px;
+    opacity: 0.7;
+    }
+    .formstyle {
+	text-align: center;
+	width: 368px;
+	margin-left: 0%;
+	
+	box-shadow: 3px 5px #e82121;
+	background:#462c2c;;
+    flex-wrap: wrap;
+}
+    .copyright {
+	text-align: center;
+	margin-top: 4%;
+	
+	height: 100px;
+	width: 296px;
+	margin-left:0%;
+	padding: 10px;
+
+	opacity: .9;
+	color: black;
+    
+     
+	
+}
+
+}
+    
